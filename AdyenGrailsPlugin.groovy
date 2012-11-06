@@ -14,7 +14,7 @@ class AdyenGrailsPlugin {
     def author = "Patrick Huetter"
     def authorEmail = "info@patrick-huetter.de"
     def description = '''\
-Brief summary/description of the plugin.
+This plug-in allows Grails applications to integrate with Adyen ( http://www.adyen.com ) and its Payment Notification system.
 '''
 
     // URL to the plugin's documentation

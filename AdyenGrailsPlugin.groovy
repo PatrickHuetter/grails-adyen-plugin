@@ -11,7 +11,7 @@ class AdyenGrailsPlugin {
     ]
 
     def title = "Grails Adyen Plugin" // Headline display name of the plugin
-    def author = "Patrick Huetter & Cedric Wetzel"
+    def author = "Patrick Huetter"
     def authorEmail = "info@patrick-huetter.de"
     def description = '''\
 Brief summary/description of the plugin.
@@ -23,19 +23,19 @@ Brief summary/description of the plugin.
     // Extra (optional) plugin metadata
 
     // License: one of 'APACHE', 'GPL2', 'GPL3'
-//    def license = "APACHE"
+    def license = "APACHE"
 
     // Details of company behind the plugin (if there is one)
-//    def organization = [ name: "My Company", url: "http://www.my-company.com/" ]
+    def organization = [ name: "encircle360", url: "http://encircle360.com/" ]
 
     // Any additional developers beyond the author specified above.
-//    def developers = [ [ name: "Joe Bloggs", email: "joe@bloggs.net" ]]
+    def developers = [ [ name: "Cedric Wetzel", email: "info@cedric-wetzel.eu" ]]
 
     // Location of the plugin's issue tracker.
-//    def issueManagement = [ system: "JIRA", url: "http://jira.grails.org/browse/GPMYPLUGIN" ]
+    def issueManagement = [ system: "Redmine", url: "http://basecamp.encircle360.com/projects/grailsadyen" ]
 
     // Online location of the plugin's browseable source code.
-//    def scm = [ url: "http://svn.codehaus.org/grails-plugins/" ]
+    def scm = [ url: "http://github.com/PatrickHuetter/grails-adyen-plugin/" ]
 
     def doWithWebDescriptor = { xml ->
         // TODO Implement additions to web.xml (optional), this event occurs before
